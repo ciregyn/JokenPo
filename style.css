@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background-image: url("./assets/gokuvsvegeta.jpg"); /* Caminho da sua imagem */
+        background-size: cover; /* Faz a imagem cobrir tudo */
+        background-position: center; /* Centraliza a imagem */
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center; /* Alinha horizontalmente */
+        align-items: center;     /* Alinha verticalmente */
+      
+      }
+
+    .conteiner{
+        background-color: #ffff;
+        display: inline-block;
+        text-align: center;
+        align-items: center;
+        margin: 20% 42%;
+        width: 250px;
+        position: absolute;
+        border-radius: 10px;
+    }
+
+button{
+    font-size: 55px;
+    margin-left: 10px;
+    margin-right: 6px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    transition: opacity 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+button:active {
+    transform: translateY(10px); 
+  }
+
+button:hover{
+    opacity: 0.7;
+}
+
+.reset-btn {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .reset-btn:hover {
+    background-color: #e63946;
+  }
+  
+
+#rock {
+    background-color: rgb(91, 91, 248);
+    border: none;
+    border-radius: 5px;
+}
+
+#paper {
+    background-color: rgb(67, 226, 115);
+    border: none;
+    border-radius: 5px;
+}
+
+#scissors {
+    background-color: rgb(248, 91, 183);
+    border: none;
+    border-radius: 5px;
+}
+
+p{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.your-score span{
+    color: blue;
+}
+
+.machine-score span {
+    color: rgb(230, 4, 4);
+}
+
+.result {
+    margin-bottom: 10px;
+}

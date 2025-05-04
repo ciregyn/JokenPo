@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JokenPo</title>
+</head>
+
+<body>
+
+
+
+    <div class="conteiner">
+        <h1>JokenPo</h1>
+        <div class="choose">
+            <button id="rock" onclick="playHuman('rock')">&#x1F44A;</button>
+            <button id="paper" onclick="playHuman('paper')">&#x270B;</button>
+            <button id="scissors" onclick="playHuman('scissors')">&#x270C;</button>
+            
+
+            <b><p class="result">Reultado</p></b>
+
+            <p class="your-score"> <b>Pontuação Goku:</b> <b><span id="human-score">0</span></b></p>
+            <p class="machine-score"> <b>Pontuação Vegeta:</b> <b><span id="machine-score">0</span></b></p>
+           <br>
+            <button onclick="resetGame()" class="reset-btn">Reiniciar Jogo</button>
+        </div>
+    </div>
+
+
+</body>
+<script src="./script.js"></script>
+</html>
