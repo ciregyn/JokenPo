@@ -1,12 +1,12 @@
-# 🪨📄✂️ Jokenpô Game - Pedra, Papel e Tesoura
+# 📄✂️ Jokenpô Game - Pedra, Papel e Tesoura
 
-Um mini jogo clássico de **Pedra, Papel e Tesoura** (Jokenpô), desenvolvido com **HTML**, **CSS** e **JavaScript puro**, onde o jogador desafia a máquina em tempo real. O projeto é ideal para treinar lógica de programação, manipulação de DOM e interações com o usuário.
+Um mini jogo clássico de **Pedra, Papel e Tesoura** (Jokenpô), desenvolvido com **HTML**, **CSS** e **JavaScript puro**, onde o jogador desafia a máquina em tempo real. O projeto é ideal para treinar lógica de programação, manipulação de DOM e interações com o usuário de forma tambem responsiva.
 
 ---
 
 ## 🎮 Demonstração
 
-<img src="">
+<img src="https://github.com/ciregyn/JokenPo/blob/main/assets/img-jokenpo.jpg?raw=true">
 
 ---
 
